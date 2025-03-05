@@ -2040,3 +2040,30 @@ textarea.form-input::-webkit-resizer {
     font-size: 25px;
   }
 }
+
+.skill-set {  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill-custom1 {
+  display: block;
+}
+
+.skill-custom1 img {
+  width: 100%;
+}
+
+.skill-custom2 {
+  padding: 15px;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(205, 205, 205);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.skill-custom2:hover {
+  opacity: 0.5;
+  transition: .3s ease-in-out;  
+}
